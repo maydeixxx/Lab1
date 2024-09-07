@@ -12,6 +12,6 @@ int main()
 
 	float y = cos(t + z);
 	float x = 4 * log(pow(y, 3)) - z / t;
-t;
+
 	printf("x = %.2f", x);
 }
