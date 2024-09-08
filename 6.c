@@ -4,10 +4,10 @@
 int main()
 {
 	float t, z;
-	printf("input z");
+	printf("Input z:");
 	scanf_s("%f", &z);
 
-	printf("input t");
+	printf("Input t:");
 	scanf_s("%f", &t);
 
 	float y = tan(t) + z;
