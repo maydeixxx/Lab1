@@ -5,10 +5,10 @@ int main()
 {
 	float t, z;
 
-	printf("input t");
+	printf("Input t:");
 	scanf_s("%f", &t);
 
-	printf("input z");
+	printf("Input z:");
 	scanf_s("%f", &z);
 
 	float y = t + 2 * (cos(z) / sin(z));
