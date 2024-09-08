@@ -4,10 +4,10 @@
 int main() 
 {
 	float y, z;
-	printf("input y");
+	printf("Input y:");
 	scanf_s("%f", &y);
 
-	printf("input z");
+	printf("Input z:");
 	scanf_s("%f", &z);
 
 	float t = 5 / (1 + pow(y, 2));
