@@ -5,10 +5,10 @@ int main()
 {
 	float t, z;
 	printf("Input t:");
-	scanf_s("%f", &t);
+	scanf("%f", &t);
 
 	printf("Input z:");
-	scanf_s("%f", &z);
+	scanf("%f", &z);
 
 	float y = cos(t + z);
 	float x = 4 * log(pow(y, 3)) - z / t;
