@@ -5,10 +5,10 @@ int main()
 {
 	float t, z;
 	printf("Input z:");
-	scanf_s("%f", &z);
+	scanf("%f", &z);
 
 	printf("Input t:");
-	scanf_s("%f", &t);
+	scanf("%f", &t);
 
 	float y = tan(t) + z;
 	float x = (8 * pow(z, 2) + 1) / (y * exp(t) + pow(t, 2));
